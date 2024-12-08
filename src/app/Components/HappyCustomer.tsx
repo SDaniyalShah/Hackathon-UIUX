@@ -8,7 +8,7 @@ import varified from '../../../public/Home/verified.png';
 import blurReview1 from '../../../public/Home/BlurReview1.png'
 import blurReview2 from '../../../public/Home/BlurReview2.png'
 
-const HappyCustomer = () => {
+export default function HappyCustomer() {
   return (
     <>
       <div className='flex flex-col mb-[149px] md:mb-[120px]'>
@@ -28,7 +28,7 @@ const HappyCustomer = () => {
             <div className='w-[310px] h-[138.19px] md:w-[336px] md:h-[183.58px]'>
             <Image src={fiveStar} alt='fiveStar' className='w-[118px] h-[19.19px] '/>
             <h1 className='flex items-center gap-[5.78px] pt-4 font-bold text-[16px] w-[89px] h-[19px] md:w-[110px] md:h-[24px] md:text-xl md:pt-5'>Sarah M. <span><Image src={varified} alt='varified' className='w-[15.44px] h-[15.44px] md:w-[19.5px] md:h-[19.5px]'/></span></h1>
-            <p className='pt-2 w-[310px] h-[80px] font-normal text-[14px] opacity-60 md:w-[306px] md:h-[88px] md:leading-[22px] md:pt-4'>"I'm blown away by the quality and style of the clothes I received from Shop.co. From casual wear to elegant dresses, every piece I've bought has exceeded my expectations.”</p>
+            <p className='pt-2 w-[310px] h-[80px] font-normal text-[14px] opacity-60 md:w-[306px] md:h-[88px] md:leading-[22px] md:pt-4'>&quot;I&apos;m blown away by the quality and style of the clothes I received from Shop.co. From casual wear to elegant dresses, every piece I&apos;ve bought has exceeded my expectations.&quot;</p>
             </div>
             </div>
 
@@ -36,7 +36,7 @@ const HappyCustomer = () => {
             <div className='w-[310px] h-[138.19px] md:w-[336px] md:h-[183.58px]'>
             <Image src={fiveStar} alt='fiveStar' className='w-[118px] h-[19.19px] '/>
             <h1 className='flex items-center gap-[5.78px] pt-4 font-bold text-[16px] w-[89px] h-[19px] md:w-[110px] md:h-[24px] md:text-xl md:pt-5'>Alex K. <span><Image src={varified} alt='varified' className='w-[15.44px] h-[15.44px] md:w-[19.5px] md:h-[19.5px]'/></span></h1>
-            <p className='pt-2 w-[310px] h-[80px] font-normal text-[14px] opacity-60 md:w-[306px] md:h-[88px] md:leading-[22px] md:pt-4'>"Finding clothes that align with my personal style used to be a challenge until I discovered Shop.co. The range of options they offer is truly remarkable, catering to a variety of tastes and occasions.”</p>
+            <p className='pt-2 w-[310px] h-[80px] font-normal text-[14px] opacity-60 md:w-[306px] md:h-[88px] md:leading-[22px] md:pt-4'>&quot;Finding clothes that align with my personal style used to be a challenge until I discovered Shop.co. The range of options they offer is truly remarkable, catering to a variety of tastes and occasions.&quot;</p>
             </div>
             </div>
 
@@ -44,7 +44,7 @@ const HappyCustomer = () => {
             <div className='w-[310px] h-[138.19px] md:w-[336px] md:h-[183.58px]'>
             <Image src={fiveStar} alt='fiveStar' className='w-[118px] h-[19.19px] '/>
             <h1 className='flex items-center gap-[5.78px] pt-4 font-bold text-[16px] w-[89px] h-[19px] md:w-[110px] md:h-[24px] md:text-xl md:pt-5'>James L. <span><Image src={varified} alt='varified' className='w-[15.44px] h-[15.44px] md:w-[19.5px] md:h-[19.5px]'/></span></h1>
-            <p className='pt-2 w-[310px] h-[80px] font-normal text-[14px] opacity-60 md:w-[306px] md:h-[88px] md:leading-[22px] md:pt-4'>"As someone who's always on the lookout for unique fashion pieces, I'm thrilled to have stumbled upon Shop.co. The selection of clothes is not only diverse but also on-point with the latest trends.”</p>
+            <p className='pt-2 w-[310px] h-[80px] font-normal text-[14px] opacity-60 md:w-[306px] md:h-[88px] md:leading-[22px] md:pt-4'>&quot;As someone who&apos;s always on the lookout for unique fashion pieces, I&apos;m thrilled to have stumbled upon Shop.co. The selection of clothes is not only diverse but also on-point with the latest trends.&quot;</p>
             </div>
             </div>
             <Image className='hidden md:flex w-[120px] h-[240px]' src={blurReview2} alt='Review'/>
@@ -55,5 +55,3 @@ const HappyCustomer = () => {
     </>
   )
 }
-
-export default HappyCustomer
