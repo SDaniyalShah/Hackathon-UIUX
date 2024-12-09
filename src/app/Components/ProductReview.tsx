@@ -52,7 +52,7 @@ export default function ProductReview() {
             <div className='w-[310px] h-[138.19px] md:w-[336px] md:h-[183.58px]'>
             <Image src={FourHalfStar} alt='Rating' className='w-[108px] h-[19.2px] md:w-[127px] md:h-[22.58px]'/>
             <h1 className='flex items-center gap-[5.78px] pt-4 font-bold text-[16px] w-[120px] h-[19px] md:w-[150px] md:h-[24px] md:text-xl md:pt-5'>Samantha D. <span><Image src={Verified} alt='varified' className='w-[15.44px] h-[15.44px] md:w-[19.5px] md:h-[19.5px]'/></span></h1>
-            <p className='pt-2 w-[310px] h-[80px] font-normal text-[14px] opacity-60 md:text-[16px] md:w-[522px] md:h-[88px] md:leading-[22px] md:pt-4'>"I absolutely love this t-shirt! The design is unique and the fabric feels so comfortable. As a fellow designer, I appreciate the attention to detail. It's become my favorite go-to shirt."</p>
+            <p className='pt-2 w-[310px] h-[80px] font-normal text-[14px] opacity-60 md:text-[16px] md:w-[522px] md:h-[88px] md:leading-[22px] md:pt-4'>&quot;I absolutely love this t-shirt! The design is unique and the fabric feels so comfortable. As a fellow designer, I appreciate the attention to detail. It&apos;s become my favorite go-to shirt.&quot;</p>
             <p className='font-normal text-[14px] mt-[40px] opacity-60 md:text-[16px] md:mt-[25px] '>Posted on August 14, 2023</p>
             </div>
             </div>
@@ -63,7 +63,7 @@ export default function ProductReview() {
             <div className='w-[310px] h-[138.19px] md:w-[336px] md:h-[183.58px]'>
             <Image src={FourStar} alt='Rating' className='w-[93.3px] h-[19.2px] md:w-[110px] md:h-[22.58px] '/>
             <h1 className='flex items-center gap-[5.78px] pt-4 font-bold text-[16px] w-[120px] h-[19px] md:w-[150px] md:h-[24px] md:text-xl md:pt-5'>Alex M. <span><Image src={Verified} alt='varified' className='w-[15.44px] h-[15.44px] md:w-[19.5px] md:h-[19.5px]'/></span></h1>
-            <p className='pt-2 w-[310px] h-[80px] font-normal text-[14px] opacity-60 md:text-[16px] md:w-[522px] md:h-[88px] md:leading-[22px] md:pt-4'>"The t-shirt exceeded my expectations! The colors are vibrant and the print quality is top-notch. Being a UI/UX designer myself, I'm quite picky about aesthetics, and this t-shirt definitely gets a thumbs up from me."</p>
+            <p className='pt-2 w-[310px] h-[80px] font-normal text-[14px] opacity-60 md:text-[16px] md:w-[522px] md:h-[88px] md:leading-[22px] md:pt-4'>&quot;The t-shirt exceeded my expectations! The colors are vibrant and the print quality is top-notch. Being a UI/UX designer myself, I&apos;m quite picky about aesthetics, and this t-shirt definitely gets a thumbs up from me.&quot;</p>
             <p className='font-normal text-[14px] mt-[60px] opacity-60 md:text-[16px] md:mt-[25px] '>Posted on August 15, 2023</p>
             </div>
             </div>
@@ -72,7 +72,7 @@ export default function ProductReview() {
             <div className='w-[310px] h-[138.19px] md:w-[336px] md:h-[183.58px]'>
             <Image src={ThreeHalfStar} alt='Rating' className=' w-[83.23px] h-[19.2] md:w-[98px] md:h-[22.58px] '/>
             <h1 className='flex items-center gap-[5.78px] pt-4 font-bold text-[16px] w-[120px] h-[19px] md:w-[150px] md:h-[24px] md:text-xl md:pt-5'>Ethan R. <span><Image src={Verified} alt='varified' className='w-[15.44px] h-[15.44px] md:w-[19.5px] md:h-[19.5px]'/></span></h1>
-            <p className='pt-2 w-[310px] h-[80px] font-normal text-[14px] opacity-60 md:text-[16px] md:w-[522px] md:h-[88px] md:leading-[22px] md:pt-4'>"This t-shirt is a must-have for anyone who appreciates good design. The minimalistic yet stylish pattern caught my eye, and the fit is perfect. I can see the designer's touch in every aspect of this shirt."</p>
+            <p className='pt-2 w-[310px] h-[80px] font-normal text-[14px] opacity-60 md:text-[16px] md:w-[522px] md:h-[88px] md:leading-[22px] md:pt-4'>&quot;This t-shirt is a must-have for anyone who appreciates good design. The minimalistic yet stylish pattern caught my eye, and the fit is perfect. I can see the designer&apos;s touch in every aspect of this shirt.&quot;</p>
             <p className='font-normal text-[14px] mt-[60px] opacity-60 md:text-[16px] md:mt-[25px] '>Posted on August 16, 2023</p>
             </div>
             </div>
@@ -82,7 +82,7 @@ export default function ProductReview() {
             <div className='w-[310px] h-[138.19px] md:w-[336px] md:h-[183.58px]'>
             <Image src={FourStar} alt='Rating' className='w-[110px] h-[22.58px] '/>
             <h1 className='flex items-center gap-[5.78px] pt-4 font-bold text-[16px] w-[120px] h-[19px] md:w-[150px] md:h-[24px] md:text-xl md:pt-5'>Olivia P. <span><Image src={Verified} alt='varified' className='w-[15.44px] h-[15.44px] md:w-[19.5px] md:h-[19.5px]'/></span></h1>
-            <p className='pt-2 w-[310px] h-[80px] font-normal text-[14px] opacity-60 md:text-[16px] md:w-[522px] md:h-[88px] md:leading-[22px] md:pt-4'>"As a UI/UX enthusiast, I value simplicity and functionality. This t-shirt not only represents those principles but also feels great to wear. It's evident that the designer poured their creativity into making this t-shirt stand out."</p>
+            <p className='pt-2 w-[310px] h-[80px] font-normal text-[14px] opacity-60 md:text-[16px] md:w-[522px] md:h-[88px] md:leading-[22px] md:pt-4'>&quot;As a UI/UX enthusiast, I value simplicity and functionality. This t-shirt not only represents those principles but also feels great to wear. It&apos;s evident that the designer poured their creativity into making this t-shirt stand out.&quot;</p>
             <p className='font-normal text-[14px] opacity-60 md:text-[16px] mt-[25px] '>Posted on August 17, 2023</p>
             </div>
             </div>
@@ -91,7 +91,7 @@ export default function ProductReview() {
             <div className='w-[310px] h-[138.19px] md:w-[336px] md:h-[183.58px]'>
             <Image src={FourStar} alt='Rating' className=' w-[110px] h-[22.58px]'/>
             <h1 className='flex items-center gap-[5.78px] pt-4 font-bold text-[16px] w-[120px] h-[19px] md:w-[150px] md:h-[24px] md:text-xl md:pt-5'>Liam K. <span><Image src={Verified} alt='varified' className='w-[15.44px] h-[15.44px] md:w-[19.5px] md:h-[19.5px]'/></span></h1>
-            <p className='pt-2 w-[310px] h-[80px] font-normal text-[14px] opacity-60 md:text-[16px] md:w-[522px] md:h-[88px] md:leading-[22px] md:pt-4'>"This t-shirt is a fusion of comfort and creativity. The fabric is soft, and the design speaks volumes about the designer's skill. It's like wearing a piece of art that reflects my passion for both design and fashion."</p>
+            <p className='pt-2 w-[310px] h-[80px] font-normal text-[14px] opacity-60 md:text-[16px] md:w-[522px] md:h-[88px] md:leading-[22px] md:pt-4'>&quot;This t-shirt is a fusion of comfort and creativity. The fabric is soft, and the design speaks volumes about the designer&apos;s skill. It&apos;s like wearing a piece of art that reflects my passion for both design and fashion.&quot;</p>
             <p className='font-normal text-[14px] opacity-60 md:text-[16px] mt-[25px] '>Posted on August 18, 2023</p>
             </div>
             </div>
@@ -101,7 +101,7 @@ export default function ProductReview() {
             <div className='w-[310px] h-[138.19px] md:w-[336px] md:h-[183.58px]'>
             <Image src={FourHalfStar} alt='Rating' className='w-[127px] h-[22.58px] '/>
             <h1 className='flex items-center gap-[5.78px] pt-4 font-bold text-[16px] w-[120px] h-[19px] md:w-[150px] md:h-[24px] md:text-xl md:pt-5'>Ava H. <span><Image src={Verified} alt='varified' className='w-[15.44px] h-[15.44px] md:w-[19.5px] md:h-[19.5px]'/></span></h1>
-            <p className='pt-2 w-[310px] h-[80px] font-normal text-[14px] opacity-60 md:text-[16px] md:w-[522px] md:h-[88px] md:leading-[22px] md:pt-4'>"I'm not just wearing a t-shirt; I'm wearing a piece of design philosophy. The intricate details and thoughtful layout of the design make this shirt a conversation starter."</p>
+            <p className='pt-2 w-[310px] h-[80px] font-normal text-[14px] opacity-60 md:text-[16px] md:w-[522px] md:h-[88px] md:leading-[22px] md:pt-4'>&quot;I&apos;m not just wearing a t-shirt; I&apos;m wearing a piece of design philosophy. The intricate details and thoughtful layout of the design make this shirt a conversation starter.&quot;</p>
             <p className='font-normal text-[14px] opacity-60 md:text-[16px] mt-[25px] '>Posted on August 19, 2023</p>
             </div>
            </div>
