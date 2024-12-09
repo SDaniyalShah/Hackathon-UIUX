@@ -8,6 +8,7 @@ import searchIcon from '../../../public/Home/searchIcon.png'
 import Cart from '../../../public/Home/cartIcon.png'
 import profile from '../../../public/Home/profileIcon.png'
 import dropdown from '../../../public/Home/dropDownIcon.png'
+import '@/app/css/satoshi.css'
 export default function Navbar() {
 
   return (

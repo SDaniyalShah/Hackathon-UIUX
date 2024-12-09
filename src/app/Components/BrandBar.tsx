@@ -5,6 +5,7 @@ import brand2 from '../../../public/Home/zara.png'
 import brand3 from '../../../public/Home/gucci.png'
 import brand4 from '../../../public/Home/prada.png'
 import brand5 from '../../../public/Home/calvin.png'
+import '@/app/css/satoshi.css'
 export default function BrandBar() {
 
   return (

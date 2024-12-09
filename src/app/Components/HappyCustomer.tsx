@@ -7,6 +7,7 @@ import fiveStar from '../../../public/Home/fivestar.png';
 import varified from '../../../public/Home/verified.png';
 import blurReview1 from '../../../public/Home/BlurReview1.png'
 import blurReview2 from '../../../public/Home/BlurReview2.png'
+import '@/app/css/satoshi.css'
 
 export default function HappyCustomer() {
   return (
@@ -17,7 +18,7 @@ export default function HappyCustomer() {
             <h1 style={{fontFamily:"integral"}}>OUR HAPPY CUSTOMERS</h1>
             
         </div>
-        <div className='md:ml-[405px] ml-[70px] flex gap-6 w-12 h-6 mt-[40px] '>
+        <div className='md:ml-[405px] ml-[45px] flex gap-6 w-12 h-6 mt-[40px] '>
             <Image src={arrowLeft} alt='<-'/>
             <Image src={arrowRight} alt='->'/>
             </div>

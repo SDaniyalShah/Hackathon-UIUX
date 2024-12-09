@@ -16,6 +16,7 @@ import sell1 from "../../../public/Home/sell1.png";
 import sell2 from "../../../public/Home/sell2.png";
 import sell3 from "../../../public/Home/sell3.png";
 import sell4 from "../../../public/Home/sell4.png";
+import '@/app/css/satoshi.css'
 
 export default function NewArrivals() {
 
@@ -29,15 +30,15 @@ export default function NewArrivals() {
       </div>
       <div>
         {/* New Arrivals */}
-        <div  style={{fontFamily:"Satoshi-variable"}} className="grid grid-cols-2 justify-around items-center mx-[16px] gap-4 md:mx-[100px] md:gap-4 md:grid-cols-4">
+        <div  style={{fontFamily:"Satoshi-variable"}} className="grid grid-cols-2 justify-around items-center mx-[16px] gap-2 md:mx-[100px] md:gap-4 md:grid-cols-4">
           {/* Item 1 */}
           <div className="flex flex-col justify-start md:gap-1">
             <Image
               src={Arrival1}
               alt="Product"
-              className="w-[198px] h-[200.01px] rounded-[13.42] md:w-[295px] md:h-[298px]"
+              className="w-[158px] h-[170.01px] rounded-[13.42] md:w-[295px] md:h-[298px]"
             />
-            <h1 className="h-[22px] w-[180px] font-bold text-[16px] leading-[21.6px] md:[20px] md:w-[225px] md:h-[27px]">
+            <h1 className="h-[22px] w-[180px] font-bold text-[14px] leading-[21.6px] md:[20px] md:w-[225px] md:h-[27px]">
               T-shirt with Tape Details
             </h1>
             <Image
@@ -54,9 +55,9 @@ export default function NewArrivals() {
             <Image
               src={Arrival2}
               alt="Product"
-              className="w-[198px] h-[200.01px] rounded-[13.42] md:w-[295px] md:h-[298px]"
+              className="w-[158px] h-[170.01px] rounded-[13.42] md:w-[295px] md:h-[298px]"
             />
-            <h1 className="h-[22px] w-[180px] font-bold text-[16px]  leading-[21.6px] md:text-[20px] md:w-[225px] md:h-[27px]">
+            <h1 className="h-[22px] w-[180px] font-bold text-[14px]  leading-[21.6px] md:text-[20px] md:w-[225px] md:h-[27px]">
               Skinny Fit Jeans
             </h1>
             <Image
@@ -147,15 +148,15 @@ export default function NewArrivals() {
         </div>
 
         {/* TOP SELLING */}
-        <div className="grid grid-cols-2 justify-around items-center mx-[16px] gap-4 md:mx-[100px] md:gap-4 md:grid-cols-4">
+        <div className="grid grid-cols-2 justify-around items-center mx-[16px] gap-2 md:mx-[100px] md:gap-4 md:grid-cols-4">
           {/* Item 1 */}
           <div className="flex flex-col justify-start md:gap-1">
             <Image
               src={sell1}
               alt="Product"
-              className="w-[198px] h-[200.01px] rounded-[13.42] md:w-[295px] md:h-[298px]"
+              className="w-[158px] h-[170.01px] rounded-[13.42] md:w-[295px] md:h-[298px]"
             />
-            <h1 className="h-[22px] w-[180px] font-bold text-[16px] leading-[21.6px] md:text-[20px
+            <h1 className="h-[22px] w-[180px] font-bold text-[14px] leading-[21.6px] md:text-[20px
             ] md:w-[225px] md:h-[27px]">
               Vertical Striped Shirt
             </h1>
@@ -183,9 +184,9 @@ export default function NewArrivals() {
             <Image
               src={sell2}
               alt="Product"
-              className="w-[198px] h-[200.01px] rounded-[13.42] md:w-[295px] md:h-[298px]"
+              className="w-[158px] h-[170.01px] rounded-[13.42] md:w-[295px] md:h-[298px]"
             />
-            <h1 className="h-[22px] w-[190px] font-bold text-[16px] leading-[21.6px] md:w-[235px] md:text-[20px] md:h-[27px]">
+            <h1 className="h-[22px] w-[190px] font-bold text-[14px] leading-[21.6px] md:w-[235px] md:text-[20px] md:h-[27px]">
               Courage Graphic T-shirt
             </h1>
             <Image

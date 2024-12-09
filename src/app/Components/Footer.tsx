@@ -12,6 +12,7 @@ import master from '../../../public/Home/master.png'
 import paypal from '../../../public/Home/paypal.png'
 import applepay from '../../../public/Home/applepay.png'
 import gpay from '../../../public/Home/gpay.png'
+import '@/app/css/satoshi.css'
 
 export default function Footer() {
   return (
