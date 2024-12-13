@@ -11,7 +11,7 @@ export default function Hero() {
   return (
     <main>
       <div className=" flex flex-col justify-between  items-center bg-[#F2F0F1] mx-auto h-[880px] md:items-start md:flex-row md:h-[663px] md:px-[100px]">
-        <div className="mt-[40px] pl-[16px] md:mt-[100px] md:pl-[30px] md:w-1/2">
+        <div className="mt-[40px] pl-[8px] md:mt-[100px] md:pl-[30px] md:w-1/2">
 
           <h1 className="w-[315px] h-[93px] font-bold text-[36px] leading-[34px] md:w-[577px] md:h-[173px] md:text-[64px] md:leading-[64px]" style={{ fontFamily: "integral" }}>Find clothes that matches your style</h1>
 

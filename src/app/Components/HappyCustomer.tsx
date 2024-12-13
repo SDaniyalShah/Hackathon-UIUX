@@ -13,17 +13,17 @@ export default function HappyCustomer() {
   return (
     <>
       <div className='flex flex-col mb-[149px] md:mb-[120px]'>
-      <div className='flex'>
-        <div className='w-[286px] h-[72px] flex justify-start leading-9 text-[32px] ml-4 font-bold md:w-[654px] md:h-[58px] md:text-5xl md:leading-[57.6px] md:ml-[100px]' >
+      <div className='flex justify-between mx-0 px-6 mr-12 md:mt-[30px] md:mx-[80px] md:mr-[140px]'>
+        <div className='w-[286px] h-[72px] flex leading-9 text-[32px] font-bold md:w-[654px] md:h-[58px] md:text-5xl md:leading-[57.6px]' >
             <h1 style={{fontFamily:"integral"}}>OUR HAPPY CUSTOMERS</h1>
             
         </div>
-        <div className='md:ml-[405px] ml-[45px] flex gap-6 w-12 h-6 mt-[40px] '>
+        <div className='flex gap-6 w-6 h-6 mt-[40px] '>
             <Image src={arrowLeft} alt='<-'/>
             <Image src={arrowRight} alt='->'/>
             </div>
             </div>
-        <div className='flex flex-col justify-center items-center gap-5 mt-[24px] md:flex-row md:mt-[40px] md:mx-[100px]' style={{fontFamily:"Satoshi-variable"}} >
+        <div className='flex flex-col justify-center items-center gap-5 mt-[24px] md:flex-row md:mt-[40px] md:mb-[50px] md:mx-[100px]' style={{fontFamily:"Satoshi-variable"}} >
           <Image className='hidden md:flex w-[120px] h-[240px]' src={blurReview1} alt='Review'/>
             <div className='w-[358px] h-[186.19px] flex flex-col justify-start items-start p-6 border-2 rounded-[20px] md:w-[340px] md:h-[219.58px]'>
             <div className='w-[310px] h-[138.19px] md:w-[336px] md:h-[183.58px]'>
