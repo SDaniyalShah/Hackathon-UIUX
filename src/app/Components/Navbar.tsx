@@ -1,3 +1,5 @@
+'use client'
+import { useState } from "react";
 import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
@@ -11,6 +13,11 @@ import dropdown from '../../../public/Home/dropDownIcon.png'
 import '@/app/css/satoshi.css'
 export default function Navbar() {
 
+    const [isOpen, setIsOpen] = useState(false); // State for toggle menu
+    
+      const toggleMenu = () => {
+        setIsOpen(!isOpen); // Toggle the navbar menu visibility
+      };
   return (
     <main>
   
@@ -30,16 +37,26 @@ export default function Navbar() {
         {/* small device screen Navbar */}
     <div className='flex justify-between h-[18px] my-5 mx-4 w-auto bg-white md:hidden'>
         <div className='flex gap-4 items-center'>
+        <button onClick={toggleMenu} className="md:hidden">
             <Image src={hamburger} alt='hamburger' className='w-[24px] h-[24px]'/>
+            </button>
             <Link href='/'><Image src={Logo} alt='Logo' className='w-[126px] h-[18px]' /></Link>
         </div>
-
+        {/* Navbar Links - Visible when menu is open */}
+      
         <div className='flex gap-[12px] md:hidden'>
             <Image src={searchIcon} alt='SearchIcon' className='w-[24px] h-[24px]'/>
             <Image src={Cart} alt='SearchIcon' className='w-[24px] h-[24px]'/>
             <Image src={profile} alt='SearchIcon' className='w-[24px] h-[24px]'/>
         </div>
     </div>
+    <div className={`md:flex ${isOpen ? "block" : "hidden"} font-semibold flex gap-6 md:hidden h-[60px] items-center justify-center mx-auto w-full bg-black`}>
+        <Link href="/" className="text-white ">Shop</Link>
+        <Link href="/Product" className="text-white ">On Sale</Link>
+        <Link href="/Casual" className="text-white ">New Arrivals</Link>
+        <Link href="/contact" className="text-white ">Brands</Link>
+      </div>
+
 
     {/* Large device Navbar */}
 
@@ -47,10 +64,10 @@ export default function Navbar() {
         <div className='flex justify-between items-center mx-[100px]  h-[48px] w-full '>
         <Link href='/'><Image src={Logo} alt='Logo' className='w-[160px] h-[22px] font-bold text-[32px] hover:'/></Link>
             <ul className='flex gap-[40px] font-normal text-[16px] leading-[21.6px] cursor-pointer'>
-                <li className='flex justify-between cursor-pointer gap-2 '> <Link href='/Product'> Shop </Link> <span className='flex items-center'><Image src={dropdown} alt='dropdown' className='h-[6.5px] w-[11.5px] py-auto'/></span></li>
-                <li>On Sale</li>
-                <li>New Arrivals</li>
-                <li>Brands</li>
+                <li className='flex justify-between cursor-pointer gap-2 '> <Link href='/'> Shop </Link> <span className='flex items-center'><Image src={dropdown} alt='dropdown' className='h-[6.5px] w-[11.5px] py-auto'/></span></li>
+                <Link href='/Product'><li>On Sale</li></Link>
+                <Link href='/Casual'><li>New Arrivals</li></Link>
+                <Link href='/'><li>Brands</li></Link>
             </ul>
             <div className='flex items-center pl-[17.86px] text-[#000000] text-opacity-40 w-[470px] 2xl:w-[577px] h-[48px] rounded-full bg-[#F0F0F0]'>
                 <Image src={searchIcon} alt='Logo' className='w-[24px] h-[24px] flex items-center opacity-40'/>
@@ -64,7 +81,7 @@ export default function Navbar() {
         </div>
     </div>
 </nav>
-
+<hr className='mx-[16px]  md:mx-[100px] h-[3px] bg-black opacity-10 flex justify-center' />
 
     </main>
   )

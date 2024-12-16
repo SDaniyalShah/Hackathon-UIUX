@@ -38,7 +38,7 @@ export default function NewArrivals() {
               alt="Product"
               className="w-[158px] h-[170.01px] rounded-[13.42] md:w-[295px] md:h-[298px]"
             />
-            <h1 className="h-[22px] w-[180px] font-bold text-[14px] leading-[21.6px] md:[20px] md:w-[225px] md:h-[27px]">
+            <h1 className="h-[22px] w-[180px] font-bold text-[14px] leading-[21.6px] md:text-[20px] md:w-[225px] md:h-[27px]">
               T-shirt with Tape Details
             </h1>
             <Image
@@ -156,8 +156,7 @@ export default function NewArrivals() {
               alt="Product"
               className="w-[158px] h-[170.01px] rounded-[13.42] md:w-[295px] md:h-[298px]"
             />
-            <h1 className="h-[22px] w-[180px] font-bold text-[14px] leading-[21.6px] md:text-[20px
-            ] md:w-[225px] md:h-[27px]">
+            <h1 className="h-[22px] w-[180px] font-bold text-[14px] leading-[21.6px] md:text-[20px] md:w-[225px] md:h-[27px]">
               Vertical Striped Shirt
             </h1>
             <Image
