@@ -51,10 +51,10 @@ export default function Navbar() {
         </div>
     </div>
     <div className={`md:flex ${isOpen ? "block" : "hidden"} font-semibold flex gap-6 md:hidden h-[60px] items-center justify-center mx-auto w-full bg-black`}>
-        <Link href="/" className="text-white ">Shop</Link>
+        <Link href="/Cart" className="text-white ">Shop</Link>
         <Link href="/Product" className="text-white ">On Sale</Link>
         <Link href="/Casual" className="text-white ">New Arrivals</Link>
-        <Link href="/contact" className="text-white ">Brands</Link>
+        <Link href="/" className="text-white ">Brands</Link>
       </div>
 
 
@@ -64,7 +64,7 @@ export default function Navbar() {
         <div className='flex justify-between items-center mx-[100px]  h-[48px] w-full '>
         <Link href='/'><Image src={Logo} alt='Logo' className='w-[160px] h-[22px] font-bold text-[32px] hover:'/></Link>
             <ul className='flex gap-[40px] font-normal text-[16px] leading-[21.6px] cursor-pointer'>
-                <li className='flex justify-between cursor-pointer gap-2 '> <Link href='/'> Shop </Link> <span className='flex items-center'><Image src={dropdown} alt='dropdown' className='h-[6.5px] w-[11.5px] py-auto'/></span></li>
+                <li className='flex justify-between cursor-pointer gap-2 '> <Link href='/Cart'> Shop </Link> <span className='flex items-center'><Image src={dropdown} alt='dropdown' className='h-[6.5px] w-[11.5px] py-auto'/></span></li>
                 <Link href='/Product'><li>On Sale</li></Link>
                 <Link href='/Casual'><li>New Arrivals</li></Link>
                 <Link href='/'><li>Brands</li></Link>

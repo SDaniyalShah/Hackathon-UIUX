@@ -110,7 +110,7 @@ export default function page() {
 
 
             {/* Products */}
-            <div className=" space-y-10 grid-cols-2 grid md:grid-cols-3 md:grid-rows-3 grid-flow-row  mt-[10px]">
+            <div className=" space-y-10 grid-cols-2 w-[390px] md:w-[auto] justify-center grid md:grid-cols-3 md:grid-rows-3 grid-flow-row  mt-[10px]">
               <div className="">
                 {/* Item 1 */}
                 <div className="flex flex-col justify-start mt-[40px] md:gap-1">
@@ -142,7 +142,7 @@ export default function page() {
                   alt="Product"
                   className="w-[158px] h-[170.01px] rounded-[20px] md:w-[295px] md:h-[298px]"
                 />
-                <h1 className="h-[22px] w-[185px] font-bold text-[16px] leading-[21.6px] md:w-[255px] md:text-[20px] md:h-[27px]">
+                <h1 className="h-[22px] w-[185px] font-bold text-[14px] leading-[21.6px] md:w-[255px] md:text-[20px] md:h-[27px]">
                   Polo with Tipping Details
                 </h1>
                 <Image
@@ -223,7 +223,7 @@ export default function page() {
                   alt="Product"
                   className="w-[158px] h-[170.01px] rounded-[13.42] md:w-[295px] md:h-[298px]"
                 />
-                <h1 className="h-[22px] w-[180px] font-bold text-[16px] leading-[21.6px] md:w-[225px] md:text-[20px] md:h-[27px]">
+                <h1 className="h-[22px] w-[180px] font-bold text-[14px] leading-[21.6px] md:w-[225px] md:text-[20px] md:h-[27px]">
                   Checkered Shirt
                 </h1>
                 <Image
@@ -242,7 +242,7 @@ export default function page() {
                   alt="Product"
                   className="w-[158px] h-[170.01px] rounded-[13.42] md:w-[295px] md:h-[298px]"
                 />
-                <h1 className="h-[22px] w-[180px] font-bold text-[16px] leading-[21.6px] md:w-[225px] md:text-[20px] md:h-[27px]">
+                <h1 className="h-[22px] w-[180px] font-bold text-[14px] leading-[21.6px] md:w-[225px] md:text-[20px] md:h-[27px]">
                   Sleeve Striped T-shirt
                 </h1>
                 <Image
