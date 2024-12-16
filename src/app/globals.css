@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Apply 90% zoom out (scale down) on the entire page */
 html, body {
     zoom: 0.9;
 }
